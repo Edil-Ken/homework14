@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+li {
+    list-style: none;
+}
+.section-description {
+    color: #4F5665;
+    font-size: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.sub-title {
+    color: #0B132A;
+    font-weight: 500;
+}
+button {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-4 {
+    width: 33.33%;
+    padding: 15px;
+}
+.col-6 {
+    width: 50%;
+    padding: 15px;
+}
+.col-12 {
+    width: 100%;
+    padding: 15px;
+}
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.inner-header a {
+    color: #4F5665;
+    font-size: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.want img {
+    max-width: 555px;
+}
+.nav-link {
+    font-size: 16px;
+    color: #4F5665;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.btn-wrapper button {
+    font-weight: 500;
+    border: none;
+    background: none;
+}
+.btn-wrapper button:not(:last-child) {
+    color: #F53855;
+    padding: 13px 45px;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+}
+.btn-wrapper button:not(:last-child):hover {
+    color: white;
+    background-color: #F53855;
+    box-shadow: 1px 34px 26px -11px rgba(245, 56, 56, 0.35);
+}
+.btn-wrapper button:nth-child(2) {
+    color: #F53855;
+    padding: 13px 45px;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+}
+.btn-wrapper button:nth-child(2):hover {
+    color: white;
+    background-color: #F53855;
+    box-shadow: 1px 34px 26px -11px rgba(245, 56, 56, 0.35);
+}
+.want h1 {
+    font-size: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    line-height: 70px;
+    font-weight: 500;
+}
+.want span {
+    font-weight: 700;
+}
+.want p {
+    padding: 20px 0 50px 0;
+}
+.want button {
+    padding: 17px 77px;
+    background-color: #F53838;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    box-shadow: 1px 34px 26px -11px rgba(245, 56, 56, 0.35);
+}
+.users {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 104px;
+    box-shadow: 1px 34px 26px -11px rgba(17, 17, 16, 0.2);
+}
+.users .box {
+    display: flex;
+    align-items: center;
+}
+.users .box p {
+    padding: unset;
+    padding-top: 5px;
+}
+.users .box img {
+    padding-right: 36px;
+}
+.pl {
+    padding-left: 91px;
+}
+.pr {
+    padding-right: 91px;
+}
+.vr {
+    height: 125px;
+    width: 3px;
+    background-color: #EEEFF2;
+}
+.provide-gap {
+    gap: 140px;
+}
+.provide {
+    padding-top: 150px;
+}
+.provide h1 {
+    padding: unset;
+    color: #0B132A;
+    font-size: 35px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+.provide p {
+    padding: 20px 0;
+}
+.provide ul {
+    display: block;
+    margin-left: 24px;
+}
+.provide ul li {
+    list-style: url(../assets/svg/galochka.svg);
+}
+.provide-pl {
+    padding-left: 140px;
+}
+.Choose {
+    background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+}
+.center-h1 {
+    padding: 81px 0 20px 0;
+    color: #0B132A;
+    text-align: center;
+    font-size: 35px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+.center-p {
+    color: #4F5665;
+    text-align: center;
+    font-size: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 60px;
+}
+.Choose-box {
+    padding: 65px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+}
+.Choose-box h4 {
+    padding: 30px 0;
+    color: #0B132A;
+    text-align: center;
+    font-size: 18px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+.Choose-p {
+    display: flex;
+    flex-direction: column;
+}
+.Choose-p span {
+    padding-right: 20px;
+}
+.Choose-p p {
+    color: #4F5665;
+    font-size: 14px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.Choose-box h3 {
+    padding: 130px 0 20px 0;
+    color: #0B132A;
+    text-align: center;
+    font-size: 25px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+.Choose-box button {
+    padding: 13px 63px;
+    color: #F53838;
+    font-size: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    background-color: #fff;
+}
+.Choose-box:hover {
+    border: 2px solid #F53838;
+}
+.Choose-box button:hover {
+    background-color: #F53838;
+    box-shadow: 1px 34px 26px -11px rgba(245, 56, 56, 0.35);
+    color: white;
+}
+.Choose .huge {
+    padding: unset;
+    padding: 150px 0 20px 0;
+}
+.huge-global {
+    display: flex;
+    justify-content: center;
+}
+.brends {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.box-chel {
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    height: 230px;
+}
+.box-chel:hover {
+    border: 2px solid #F53838;
+}
+.chel {
+    display: flex;
+    align-items: center;
+}
+.chel-name {
+    padding-left: 20px;
+}
+.rate {
+    padding-left: 80px;
+}
+.box-chel-title {
+    padding-top: 26px;
+}
+.tuda-suda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.tochechki {
+    display: flex;
+    gap: 10px;
+}
+.tochechki-hover {
+    height: 15px;
+    width: 15px;
+    background: #DDE0E4;
+    border-radius: 50px;
+}
+.tochechki-hover:hover {
+    width: 40px;
+    background-color: #F53838;
+}
+.strelochki {
+    display: flex;
+    gap: 20px;
+}
+.strelochki button {
+    color: #F53838;
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    background-color: #fff;
+}
+.strelochki button:hover {
+    color: #fff;
+    background-color: #F53838;
+}
+.subscribe {
+    position: relative;
+    bottom: -150px;
+    padding: 70px 58px;
+    background-color: #fff;
+}
+.subscribe-title {
+    max-width: 372px;
+}
+.subscribe-title h1 {
+    color: #0B132A;
+    font-size: 35px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    padding-bottom: 20px;
+}
+.subscribe-title p {
+    color: #4F5665;
+    font-size: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.aligne-center {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.subscribe-button {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.subscribe-btn {
+    padding: 17px 65px;
+    border-radius: 10px;
+    border: 2px solid #F53838;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    color: #F53838;
+}
+.subscribe-btn:hover {
+    background-color: #F53838;
+    color: #fff;
+    box-shadow: 1px 34px 26px -11px rgba(245, 56, 56, 0.35);
+}
+.footer {
+    background: #F8F8F8;
+    padding-top: 180px;
+}
+.footer-logo p {
+    max-width: 340px;
+    padding: 26px 0;
+    color: #4F5665;
+    font-size: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+.footer-logo .copirite {
+    padding: unset;
+    color: #AFB5C0;
+    font-size: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-title h4 {
+    padding-bottom: 15px;
+    color: #0B132A;
+    font-size: 18px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+}
+.footer-title p {
+    padding: 5px 0;
+    color: #4F5665;
+    font-size: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+}
